@@ -1,0 +1,38 @@
+@charset "utf-8";
+body .basicinfo {
+	width: 100%;
+}
+
+/* ヘッダー */
+header figure img {
+	height: auto;
+	width: 75%;
+	max-width: 400px;
+	padding-left: 15px;
+	padding-top: 15px;
+}
+header {
+	min-height: 90px;
+}
+
+
+
+/* トピック */
+.topic h2 {
+	font-size: large;
+	border-left-width: 10px;
+	border-left-style: solid;
+	border-left-color: #922e41;
+	margin-bottom: 5px;
+	padding-left: 10px;
+}
+
+/* メイン記事関係 */
+.main_article .story-body h2 {
+	font-size: large;
+	border-left-width: 10px;
+	border-left-style: solid;
+	border-left-color: #922e41;
+	margin-bottom: 5px;
+	padding-left: 10px;
+	}
