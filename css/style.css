@@ -277,7 +277,9 @@ nav ul li a {
 /* 記事の表 */
 .story-body .story-section table {
 	width: 90%;
-	border-collapse:collapse;
+	border-collapse: collapse;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .story-section table tr th {
@@ -285,6 +287,11 @@ nav ul li a {
 	color: #FFF;
 	padding: 5px;
 }
+
+.story-section table tr .table-col-index {
+	white-space: nowrap;
+}
+
 .story-section table tr #centre_place {
 	width: 4em;
 }
