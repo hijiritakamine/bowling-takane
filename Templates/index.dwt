@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html prefix="og: https://ogp.me/ns#">
 <head>
 <meta charset="UTF-8">
 <!-- TemplateBeginEditable name="doctitle" -->
@@ -22,10 +22,16 @@
 <!-- デスクトップ -->
 <link href="../css/desktop.css" rel="stylesheet" type="text/css" media="only screen and (min-width:950px)">
 <!-- TemplateBeginEditable name="head" -->
+<!-- OGPの設定です -->
+<meta property="og:title" content="ボウリングの師範の四条貴音と申します うぇぶ版" />
+<meta property="og:locale" content="ja_JP" />
+<meta property="og:url" content="https://bowling-takane.netlify.app/" />
+<meta property="og:image" content="https://bowling-takane.netlify.app/note/lecturer_2019/img/lecturer_hero.jpg" />
+<meta property="og:description" 
+  content="坊輪具の師範の四条貴音と申します。それ以上は秘密です。" />
 <!-- TemplateEndEditable -->
 <!-- TemplateParam name="equip_nav" type="boolean" value="false" -->
 </head>
-
 <body>
 <header class="basicinfo">
     <figure><a href="../index.html"><img src="../img/bowling-takane-logo.png" alt="ボウリングの師範の四条貴音と申します うぇぶ版"></a></figure>
@@ -50,7 +56,10 @@
  </nav>
  </div>
 <div class="basicinfo" id="main">
-  <div class="main_article"><!-- TemplateBeginEditable name="main_article" -->main_article<!-- TemplateEndEditable -->
+  <div class="main_article">
+  <!-- TemplateBeginEditable name="main_article" -->
+  main_article
+  <!-- TemplateEndEditable -->
   </div> 
   <div class="sidebar"><!-- TemplateBeginIf cond="equip_nav" -->
   <aside class="backissue">
