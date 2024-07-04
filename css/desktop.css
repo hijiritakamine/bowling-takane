@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* 基本構造 */
+body .basicinfo {
+	width: 950px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/* ヘッダー */
+header figure img {
+	height: auto;
+	width: 400px;
+	margin-top: 10px;
+	margin-left: 15px;
+}
+/* ナビゲーション */
+#nav #navToggle #navbtn {
+	display: none;
+}
+
+#gloval-nav {display:block !important}
+
+nav ul {
+	padding-left: 25px;
+}
+nav ul li  {
+	float: left;
+}
+nav ul li a {
+	width: 180px;
+	text-align: center;
+	display: block;
+}
+mav ul: after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/* main boxの並び方 */
+.main_article {content: "";
+	float: left;
+	width: 70%;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing:border-box
+}
+.sidebar {
+	float: left;
+	width: 30%;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing:border-box
+}
+#main {
+	display: block;
+	clear: both;
+}
+
+/* トピック関係 */
+.topic h2 {
+	font-size: large;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #922e41;
+	border-left-width: 10px;
+	border-left-style: solid;
+	border-left-color: #922e41;
+	padding-left: 10px;
+	padding-bottom: 1px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+}
+.main_article .topic {
+	display: block;
+	clear: both;
+    position:relative;
+}
+
+.topic_main .topic_hero_img {
+	float: left;
+	width: 40%;
+}
+.topic_main .topic_text {
+	float: left;
+	width: 60%;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing:border-box
+	margin: 0px;
+	padding-left: 20px;
+}
+.topic_main .topic_text p {
+	font-size: medium;
+	margin: 0px;
+}
+
+.topic_main .topic_text .more {
+	position: absolute;
+	right: 15px;
+	bottom: 15px;
+}
+/* サイドバー　*/
+#main .sidebar {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+
+/* メイン記事関係 */
+.main_article .story-body h2 {
+	font-size: large;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #922e41;
+	border-left-width: 10px;
+	border-left-style: solid;
+	border-left-color: #922e41;
+	padding-left: 10px;
+	padding-bottom: 1px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+	}
