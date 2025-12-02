@@ -36,3 +36,14 @@ header {
 	margin-bottom: 5px;
 	padding-left: 10px;
 	}
+
+/* 通販関係の処理 */
+.topic .topic-story .topic-story-img-wrap {
+	margin: 5px;
+	display: flex;
+	flex-direction: column;
+}
+
+.topic-story .topic-story-img-wrap .wrapped-item {
+	flex: 1;
+}

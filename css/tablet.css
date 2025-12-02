@@ -47,3 +47,14 @@ header figure img {
 	margin-bottom: 5px;
 	margin-left: 0px;
 	}
+	
+
+/* 通販関係の色々 */
+.topic .topic-story .topic-story-img-wrap {
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.topic-story .topic-story-img-wrap .wrapped-item {
+	flex:0 0 33.3%;
+}
