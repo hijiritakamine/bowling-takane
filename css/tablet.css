@@ -50,11 +50,13 @@ header figure img {
 	
 
 /* 通販関係の色々 */
-.topic .topic-story .topic-story-img-wrap {
+.story-section--shop .story-img-wrap {
+	margin: 5px;
+	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 }
 
-.topic-story .topic-story-img-wrap .wrapped-item {
-	flex:0 0 33.3%;
+.story-section--shop .story-img-wrap .wrapped-item {
+	flex:0 0 50.0%;
 }
